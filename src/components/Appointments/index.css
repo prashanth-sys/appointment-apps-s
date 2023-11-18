@@ -1,0 +1,80 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  padding: 25px;
+  width: 70%;
+  border-radius: 5px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 25px;
+}
+.label {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-size: 15px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 400px;
+}
+.input {
+  width: 200%;
+  margin-bottom: 15px;
+  height: 29px;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 9px;
+  font-family: 'Roboto';
+}
+.button {
+  width: 70px;
+  background-color: #8b5cf6;
+  border-width: 0px;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  height: 29px;
+}
+.appointment-container {
+  display: flex;
+}
+.image {
+}
+.hr {
+  margin-top: 15px;
+}
+.card-heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+.cancel-button {
+  height: 25px;
+  background-color: transparent;
+  border-width: 1px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  border-color: #8b5cf6;
+  color: #8b5cf6;
+}
+.appointment {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.list-container {
+  list-style-type: none;
+}

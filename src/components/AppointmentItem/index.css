@@ -1,0 +1,15 @@
+/* Write your CSS here */
+
+.list-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.favorite-buttons {
+  background-color: transparent;
+  border-width: 0px;
+}
+.list-items {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+}
